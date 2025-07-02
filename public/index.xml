@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/portfolio/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/resume/</guid>
+      <description>&lt;div class=&#34;resume-container&#34;&gt;&#xA;&lt;h1 id=&#34;sviatoslav-osadtsia&#34;&gt;&#xA;  SVIATOSLAV OSADTSIA&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sviatoslav-osadtsia&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;DevOps Engineer / Site Reliability Engineer&lt;/strong&gt;&#xA;Waterloo, ON | +1 506 451 5280 | &lt;a href=&#34;mailto:sviatoslav.osadtsia@gmail.com&#34; &gt;sviatoslav.osadtsia@gmail.com&lt;/a&gt; | &lt;a href=&#34;https://www.linkedin.com/in/sviatoslavosadtsia/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;professional-summary&#34;&gt;&#xA;  PROFESSIONAL SUMMARY&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#professional-summary&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;DevOps Engineer with 5+ years of experience implementing SRE principles to deliver reliable, scalable systems. Expert in infrastructure automation, monitoring, incident management, containerization, and workflow automation. AWS and Terraform certified with proven expertise in optimizing CI/CD pipelines. Collaborative team player focused on customer satisfaction, automation excellence, and knowledge sharing.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

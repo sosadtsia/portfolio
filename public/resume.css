@@ -1,0 +1,47 @@
+/* ATS-friendly resume styles */
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resume-container h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.resume-container h2 {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+.resume-container h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+  margin-top: 1.2em;
+}
+
+.resume-container ul {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.resume-container ul li {
+  margin-bottom: 0.5em;
+}
+
+.resume-container p {
+  margin-bottom: 0.5em;
+}
+
+.resume-container strong {
+  font-weight: 600;
+}
+
+@media print {
+  .resume-container {
+    font-size: 12pt;
+  }
+}

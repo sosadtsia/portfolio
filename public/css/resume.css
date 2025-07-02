@@ -1,0 +1,84 @@
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.resume-header {
+  margin-bottom: 20px;
+}
+
+.resume-header h1 {
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.resume-contact {
+  margin-bottom: 20px;
+}
+
+.resume-section {
+  margin-bottom: 25px;
+}
+
+.resume-section h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  color: #2c3e50;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job-title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.job-company {
+  font-weight: bold;
+}
+
+.job-date {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-category {
+  margin-bottom: 10px;
+  flex-basis: 48%;
+}
+
+.skill-category strong {
+  color: #2c3e50;
+}
+
+ul.achievements {
+  padding-left: 20px;
+}
+
+ul.achievements li {
+  margin-bottom: 5px;
+}
+
+@media print {
+  body {
+    font-size: 12pt;
+  }
+
+  .resume-container {
+    max-width: 100%;
+  }
+
+  .resume-section h2 {
+    color: #000;
+    border-bottom-color: #000;
+  }
+}
