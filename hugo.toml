@@ -80,6 +80,12 @@ icon = "fa-brands fa-medium fa-2x"
 weight = 5
 url = "https://medium.com/@sosadtsia"
 
+[[params.social]]
+name = "Discord"
+icon = "fa-brands fa-discord fa-2x"
+weight = 6
+url = "https://discord.com/users/sosadtsia_30873"
+
 [languages.en]
 languageName = ":uk:"
 

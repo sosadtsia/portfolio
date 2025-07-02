@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Slav</title>
+    <link>http://localhost:1313/portfolio/projects/</link>
+    <description>Recent content in Projects on Slav</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Terraform Modules</title>
+      <link>http://localhost:1313/portfolio/projects/aws-terraform-modules/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/aws-terraform-modules/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A collection of reusable Terraform modules for AWS infrastructure. These modules help standardize infrastructure deployment across multiple environments and projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;&#xA;  Features&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#features&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;VPC Module&lt;/strong&gt;: Creates a VPC with public and private subnets, NAT gateways, and route tables.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;EKS Cluster Module&lt;/strong&gt;: Deploys a production-ready EKS cluster with node groups, IAM roles, and security groups.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;RDS Module&lt;/strong&gt;: Sets up an RDS instance with security groups, parameter groups, and backup configurations.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;S3 Module&lt;/strong&gt;: Creates S3 buckets with proper access controls, encryption, and lifecycle policies.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AWS Backup Module&lt;/strong&gt;: Sets up AWS Backup for EC2 and RDS instances.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technologies-used&#34;&gt;&#xA;  Technologies Used&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#technologies-used&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Terraform&lt;/li&gt;&#xA;&lt;li&gt;AWS&lt;/li&gt;&#xA;&lt;li&gt;GitHub Actions or AWS CodeStar (for CI/CD)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;impact&#34;&gt;&#xA;  Impact&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#impact&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;These modules reduced environment provisioning time from 3 days to 30 minutes and ensured infrastructure consistency across all environments.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

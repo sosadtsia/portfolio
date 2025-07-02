@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=portfolio/livereload" data-no-instant defer></script>
+  <title>
+  AWS Terraform Modules · Slav
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Sviatoslav Osadtsia">
+<meta name="description" content="
+  Overview
+  
+    
+    Link to heading
+  
+
+A collection of reusable Terraform modules for AWS infrastructure. These modules help standardize infrastructure deployment across multiple environments and projects.
+
+  Features
+  
+    
+    Link to heading
+  
+
+
+VPC Module: Creates a VPC with public and private subnets, NAT gateways, and route tables.
+EKS Cluster Module: Deploys a production-ready EKS cluster with node groups, IAM roles, and security groups.
+RDS Module: Sets up an RDS instance with security groups, parameter groups, and backup configurations.
+S3 Module: Creates S3 buckets with proper access controls, encryption, and lifecycle policies.
+AWS Backup Module: Sets up AWS Backup for EC2 and RDS instances.
+
+
+  Technologies Used
+  
+    
+    Link to heading
+  
+
+
+Terraform
+AWS
+GitHub Actions or AWS CodeStar (for CI/CD)
+
+
+  Impact
+  
+    
+    Link to heading
+  
+
+These modules reduced environment provisioning time from 3 days to 30 minutes and ensured infrastructure consistency across all environments.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AWS Terraform Modules">
+  <meta name="twitter:description" content="Overview Link to heading A collection of reusable Terraform modules for AWS infrastructure. These modules help standardize infrastructure deployment across multiple environments and projects.
+Features Link to heading VPC Module: Creates a VPC with public and private subnets, NAT gateways, and route tables. EKS Cluster Module: Deploys a production-ready EKS cluster with node groups, IAM roles, and security groups. RDS Module: Sets up an RDS instance with security groups, parameter groups, and backup configurations. S3 Module: Creates S3 buckets with proper access controls, encryption, and lifecycle policies. AWS Backup Module: Sets up AWS Backup for EC2 and RDS instances. Technologies Used Link to heading Terraform AWS GitHub Actions or AWS CodeStar (for CI/CD) Impact Link to heading These modules reduced environment provisioning time from 3 days to 30 minutes and ensured infrastructure consistency across all environments.">
+
+<meta property="og:url" content="http://localhost:1313/portfolio/projects/aws-terraform-modules/">
+  <meta property="og:site_name" content="Slav">
+  <meta property="og:title" content="AWS Terraform Modules">
+  <meta property="og:description" content="Overview Link to heading A collection of reusable Terraform modules for AWS infrastructure. These modules help standardize infrastructure deployment across multiple environments and projects.
+Features Link to heading VPC Module: Creates a VPC with public and private subnets, NAT gateways, and route tables. EKS Cluster Module: Deploys a production-ready EKS cluster with node groups, IAM roles, and security groups. RDS Module: Sets up an RDS instance with security groups, parameter groups, and backup configurations. S3 Module: Creates S3 buckets with proper access controls, encryption, and lifecycle policies. AWS Backup Module: Sets up AWS Backup for EC2 and RDS instances. Technologies Used Link to heading Terraform AWS GitHub Actions or AWS CodeStar (for CI/CD) Impact Link to heading These modules reduced environment provisioning time from 3 days to 30 minutes and ensured infrastructure consistency across all environments.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-05-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-14T00:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/portfolio/projects/aws-terraform-modules/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/portfolio/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/portfolio/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/portfolio/resume.css" media="screen">
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/portfolio/">
+      Slav
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/portfolio/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/portfolio/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/portfolio/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/portfolio/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/portfolio/contact/">Contact me</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/portfolio/pt-ua/">🇺🇦</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/portfolio/projects/aws-terraform-modules/">
+          AWS Terraform Modules
+        </a>
+      </h1>
+    </header>
+
+    <h2 id="overview">
+  Overview
+  <a class="heading-link" href="#overview">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>A collection of reusable Terraform modules for AWS infrastructure. These modules help standardize infrastructure deployment across multiple environments and projects.</p>
+<h2 id="features">
+  Features
+  <a class="heading-link" href="#features">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><strong>VPC Module</strong>: Creates a VPC with public and private subnets, NAT gateways, and route tables.</li>
+<li><strong>EKS Cluster Module</strong>: Deploys a production-ready EKS cluster with node groups, IAM roles, and security groups.</li>
+<li><strong>RDS Module</strong>: Sets up an RDS instance with security groups, parameter groups, and backup configurations.</li>
+<li><strong>S3 Module</strong>: Creates S3 buckets with proper access controls, encryption, and lifecycle policies.</li>
+<li><strong>AWS Backup Module</strong>: Sets up AWS Backup for EC2 and RDS instances.</li>
+</ul>
+<h2 id="technologies-used">
+  Technologies Used
+  <a class="heading-link" href="#technologies-used">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Terraform</li>
+<li>AWS</li>
+<li>GitHub Actions or AWS CodeStar (for CI/CD)</li>
+</ul>
+<h2 id="impact">
+  Impact
+  <a class="heading-link" href="#impact">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>These modules reduced environment provisioning time from 3 days to 30 minutes and ensured infrastructure consistency across all environments.</p>
+<h2 id="github-repository">
+  GitHub Repository
+  <a class="heading-link" href="#github-repository">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>TO DO: Add link to GitHub repository.
+<a href="https://github.com/sosadtsia/aws-terraform-modules"  class="external-link" target="_blank" rel="noopener">View on GitHub</a></p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2024 -
+    
+    2025
+     Sviatoslav Osadtsia 
+    ·
+    
+    
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/portfolio/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

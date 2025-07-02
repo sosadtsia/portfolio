@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Slav</title>
+    <link>http://localhost:1313/portfolio/posts/</link>
+    <description>Recent content in Blog on Slav</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Terraform</title>
+      <link>http://localhost:1313/portfolio/posts/getting-started-with-terraform/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/getting-started-with-terraform/</guid>
+      <description>&lt;p&gt;Infrastructure as Code (IaC) has revolutionized the way we manage and provision infrastructure. Among the various IaC tools available, Terraform has emerged as a popular choice due to its simplicity, declarative syntax, and support for multiple cloud providers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-terraform&#34;&gt;&#xA;  What is Terraform?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#what-is-terraform&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Terraform is an open-source IaC tool developed by HashiCorp. It allows you to define and provision infrastructure using a declarative configuration language called HashiCorp Configuration Language (HCL). With Terraform, you can manage resources across various cloud providers, such as AWS, Azure, Google Cloud, and more.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
