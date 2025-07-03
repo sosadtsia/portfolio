@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/portfolio/about/</loc>
-    <lastmod>2024-05-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/portfolio/projects/aws-terraform-modules/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,6 +29,8 @@
                 hreflang="en"
                 href="http://localhost:1313/portfolio/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/portfolio/about/</loc>
   </url><url>
     <loc>http://localhost:1313/portfolio/resume/</loc>
   </url><url>
