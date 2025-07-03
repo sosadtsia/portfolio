@@ -96,26 +96,22 @@ if command -v weasyprint &> /dev/null; then
 
     # Create a simple CSS file that's compatible with WeasyPrint
     cat > resume_style.css << 'EOL'
-@font-face {
-  font-family: 'Calibri';
-  src: local('Calibri');
-}
-
 body {
-  font-family: 'Calibri', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt !important;
-  max-width: 900px !important;
+  max-width: 1000px !important;
   margin: 0 auto;
   padding: 10px;
   color: #333;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 h1 {
-  font-family: 'Calibri', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16pt;
   margin-bottom: 8px;
   text-align: center;
+  font-weight: bold;
 }
 
 /* Center contact information */
@@ -125,22 +121,24 @@ p:first-of-type {
 }
 
 h2 {
-  font-family: 'Calibri', Arial, sans-serif;
-  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt !important;
   margin-top: 15px;
   margin-bottom: 8px;
   border-bottom: 1px solid #3498db;
   padding-bottom: 3px;
   color: #2c3e50;
+  font-weight: bold;
 }
 
 h3 {
-  font-family: 'Calibri', Arial, sans-serif;
-  font-size: 12pt;
-  max-width: 900px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt !important;
+  max-width: 1000px !important;
   margin-bottom: 4px;
   margin-top: 12px;
   color: #2c3e50;
+  font-weight: bold;
 }
 
 ul {
@@ -178,6 +176,21 @@ EOL
       -t html \
       --standalone \
       -o static/resume/temp.html
+
+    # Clean up HTML to remove problematic CSS that WeasyPrint doesn't support
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+      # macOS requires an empty string for -i
+      sed -i '' 's/text-rendering: optimizeLegibility;//g' static/resume/temp.html
+      sed -i '' 's/@media (max-width: 600px)/@media screen/g' static/resume/temp.html
+      sed -i '' 's/overflow-x: auto;//g' static/resume/temp.html
+      sed -i '' 's/gap: min(4vw, 1.5em)/padding: 1em/g' static/resume/temp.html
+    else
+      # Linux version
+      sed -i 's/text-rendering: optimizeLegibility;//g' static/resume/temp.html
+      sed -i 's/@media (max-width: 600px)/@media screen/g' static/resume/temp.html
+      sed -i 's/overflow-x: auto;//g' static/resume/temp.html
+      sed -i 's/gap: min(4vw, 1.5em)/padding: 1em/g' static/resume/temp.html
+    fi
 
     # Convert HTML to PDF using WeasyPrint
     echo "Converting HTML to PDF using WeasyPrint..."
