@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Script to generate PDF from resume markdown file
-# Usage: ./generate-resume-pdf.sh
 
 set -e
+
+MY_NAME="SviatoslavOsadtsia"
 
 # Check if pandoc is installed
 if ! command -v pandoc &> /dev/null; then
@@ -33,18 +34,17 @@ generate_html_resume() {
       -f markdown \
       -t html \
       --standalone \
-      --metadata title="Sviatoslav Osadtsia - Resume" \
       --css=https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css \
-      -o static/resume/SviatoslavOsadtsia_resume.html
+      -o static/resume/${MY_NAME}_resume.html
 
     # Create a plain text version for ATS systems
-    pandoc resume_content_clean.md -f markdown -t plain -o static/resume/SviatoslavOsadtsia_resume.txt
+    pandoc resume_content_clean.md -f markdown -t plain -o static/resume/${MY_NAME}_resume.txt
 
     # Clean up temporary files
     rm resume_content_clean.md
 
-    echo "HTML resume generated: static/resume/SviatoslavOsadtsia_resume.html"
-    echo "Plain text resume generated: static/resume/SviatoslavOsadtsia_resume.txt"
+    echo "HTML resume generated: static/resume/${MY_NAME}_resume.html"
+    echo "Plain text resume generated: static/resume/${MY_NAME}_resume.txt"
 }
 
 # Try to install WeasyPrint if not available
@@ -94,16 +94,16 @@ if command -v weasyprint &> /dev/null; then
     # Extract just the resume content (without HTML tags) and remove the download link section
     cat content/resume/index.md | sed 's/<div class="resume-container">//g' | sed 's/<\/div>//g' | sed 's/<link.*>//g' | sed '/<div style="text-align: center;">/,/<\/div>/d' > resume_content_clean.md
 
-    # Create a simple CSS file that's compatible with WeasyPrint
+    # Create a CSS file that's compatible with WeasyPrint
     cat > resume_style.css << 'EOL'
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12pt !important;
+  font-size: 11pt !important;
   max-width: 1000px !important;
   margin: 0 auto;
   padding: 10px;
   color: #333;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 h1 {
@@ -133,7 +133,7 @@ h2 {
 
 h3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12pt !important;
+  font-size: 11pt !important;
   max-width: 1000px !important;
   margin-bottom: 4px;
   margin-top: 12px;
@@ -197,10 +197,10 @@ EOL
     weasyprint \
       --stylesheet resume_style.css \
       static/resume/temp.html \
-      static/resume/SviatoslavOsadtsia_resume.pdf
+      static/resume/${MY_NAME}_resume.pdf
 
-    # Create a plain text version for ATS systems
-    pandoc resume_content_clean.md -f markdown -t plain -o static/resume/SviatoslavOsadtsia_resume.txt
+    # Create a plain text version
+    pandoc resume_content_clean.md -f markdown -t plain -o static/resume/${MY_NAME}_resume.txt
 
     # Clean up temporary files
     rm resume_content_clean.md static/resume/temp.html resume_style.css

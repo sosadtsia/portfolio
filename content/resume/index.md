@@ -7,13 +7,13 @@
 
 ## PROFESSIONAL SUMMARY
 
-Experienced DevOps Developer, applying SRE principles to deliver reliable, scalable systems. Skilled in infrastructure automation, monitoring, incident management, containerization, and workflow automation. AWS and Terraform certified with proven expertise in optimizing CI/CD pipelines. Collaborative, customer-focused, passionate about automation and knowledge sharing.
+Experienced DevOps Developer, applying SRE principles to deliver reliable, scalable systems. Skilled in infrastructure automation, monitoring, incident management, containerization, and workflow automation. AWS and Terraform accredited with proven expertise in optimizing CI/CD pipelines. Collaborative, customer-focused, passionate about automation and knowledge sharing.
 
 ## WORK EXPERIENCE
 
 ### DevOps Developer - **Skillsoft** | Waterloo, ON | September 2019 - Present
 
-- Implemented automated dependency management system using Terraform, GitHub Actions and Renovate, integrating with Jira for enhanced visibility and accountability
+- Automated dependency management system using Terraform, GitHub Actions and Renovate, integrating with Jira for enhanced visibility and accountability
 - Developed AWS Lambda monitoring solution for detached EBS volumes with Python and AWS SES, optimizing cloud costs
 - Created GitHub Actions workflows monitoring with OpsGenie integration for geographically-aware incident routing
 - Reduced security vulnerabilities by 35% through automated CIS checks with Ansible and kube-bench
@@ -25,10 +25,11 @@ Experienced DevOps Developer, applying SRE principles to deliver reliable, scala
 - Enhanced pipeline security by integrating GitLeaks, Prisma Cloud, and Trivy for early vulnerability detection
 - Developed dashboards using AWS Cost Explorer APIs to track usage trends and budget limits
 - Created reusable Terraform modules for AWS, reducing environment provisioning time from 3 days to 30 minutes
+- Automated custom sandbox environment creation with Terraform and Kind, reducing setup time from 60 minutes to 5 minutes
 
-### Lead Backup Engineer Analyst**Skillsoft** | Waterloo, ON | May 2014 - September 2019
+### Lead Backup Engineer Analyst - **Skillsoft** | Waterloo, ON | May 2014 - September 2019
 
-- Designed and implemented disaster recovery plan achieving RPO of 15 minutes and RTO of 30 minutes
+- Designed and enforced disaster recovery plan achieving RPO of 15 minutes and RTO of 30 minutes
 - Led migration of on-premises infrastructure to AWS, reducing hosting costs by 30% and improving scalability
 - Improved disaster recovery process, reducing recovery time from 30 hours to 3 hours
 
