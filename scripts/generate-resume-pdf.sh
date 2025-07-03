@@ -103,7 +103,7 @@ if command -v weasyprint &> /dev/null; then
 
 body {
   font-family: 'Calibri', Arial, sans-serif;
-  font-size: 11pt !important;
+  font-size: 12pt !important;
   max-width: 900px !important;
   margin: 0 auto;
   padding: 10px;
@@ -136,7 +136,7 @@ h2 {
 
 h3 {
   font-family: 'Calibri', Arial, sans-serif;
-  font-size: 11pt;
+  font-size: 12pt;
   max-width: 900px !important;
   margin-bottom: 4px;
   margin-top: 12px;
