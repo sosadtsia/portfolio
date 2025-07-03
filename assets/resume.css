@@ -2,33 +2,42 @@
 .resume-container {
   max-width: 800px;
   margin: 0 auto;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  line-height: 1.6;
 }
 
 .resume-container h1 {
-  font-size: 2em;
+  font-family: 'Calibri', 'Arial', sans-serif;
+  font-size: 16pt;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
 .resume-container h2 {
-  font-size: 1.5em;
+  font-family: 'Calibri', 'Arial', sans-serif;
+  font-size: 14pt;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
+  color: #2c3e50;
 }
 
 .resume-container h3 {
-  font-size: 1.2em;
+  font-family: 'Calibri', 'Arial', sans-serif;
+  font-size: 12pt;
   margin-bottom: 0.2em;
   margin-top: 1.2em;
+  color: #2c3e50;
 }
 
 .resume-container ul {
   margin-top: 0.5em;
   margin-bottom: 1em;
+  padding-left: 1.5em;
 }
 
-.resume-container ul li {
+.resume-container li {
   margin-bottom: 0.5em;
 }
 
@@ -36,12 +45,69 @@
   margin-bottom: 0.5em;
 }
 
-.resume-container strong {
-  font-weight: 600;
+/* Contact information styling */
+.resume-container p:first-of-type {
+  text-align: center;
+  margin-bottom: 1.5em;
 }
 
+/* Add some space between sections */
+.resume-container section {
+  margin-bottom: 1.5em;
+}
+
+/* Style for the download section */
+.resume-container h2:last-of-type {
+  margin-top: 2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 0 15px;
+  }
+
+  .resume-container h1 {
+    font-size: 16pt;
+  }
+
+  .resume-container h2 {
+    font-size: 14pt;
+  }
+
+  .resume-container h3 {
+    font-size: 12pt;
+  }
+}
+
+/* Print styles */
 @media print {
   .resume-container {
+    max-width: 100%;
+    padding: 0;
     font-size: 12pt;
+  }
+
+  .resume-container h1 {
+    font-size: 16pt;
+  }
+
+  .resume-container h2 {
+    font-size: 14pt;
+    border-bottom-width: 1px;
+  }
+
+  .resume-container h3 {
+    font-size: 12pt;
+  }
+
+  .resume-container ul {
+    padding-left: 1em;
+  }
+
+  /* Hide download section when printing */
+  .resume-container h2:last-of-type,
+  .resume-container h2:last-of-type + ul {
+    display: none;
   }
 }

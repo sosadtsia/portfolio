@@ -3,7 +3,7 @@
 <div class="resume-container">
 
 <h1 style="text-align: center;">Sviatoslav Osadtsia (Slav)</h1>
-<p style="text-align: center;">Waterloo, ON | +1 506 451 5280 | sviatoslav.osadtsia@gmail.com | <a href="https://www.linkedin.com/in/sviatoslavosadtsia/">LinkedIn</a></p>
+<p style="text-align: center;">Waterloo, ON | sviatoslav.osadtsia@gmail.com | <a href="https://www.linkedin.com/in/sviatoslavosadtsia/">LinkedIn</a></p>
 
 ## PROFESSIONAL SUMMARY
 
@@ -31,7 +31,6 @@ Experienced DevOps Developer, applying SRE principles to deliver reliable, scala
 - Designed and implemented disaster recovery plan achieving RPO of 15 minutes and RTO of 30 minutes
 - Led migration of on-premises infrastructure to AWS, reducing hosting costs by 30% and improving scalability
 - Improved disaster recovery process, reducing recovery time from 30 hours to 3 hours
-- Saved $60,000 annually through software/hardware maintenance optimization and vendor negotiations
 
 ### System Administrator - **McCain Foods** | Florenceville, NB | February 2009 - April 2014
 
@@ -46,13 +45,12 @@ Experienced DevOps Developer, applying SRE principles to deliver reliable, scala
 
 - **Infrastructure as Code**: Terraform, CloudFormation, Crossplane
 - **Configuration Management**: Ansible
-- **Cloud Computing:** AWS
+- **Cloud Computing**: AWS
 - **Containerization**: Docker, Kubernetes, Helm, Kustomize
 - **CI/CD**: GitHub Actions, ArgoCD, AWS CodeStar
-- **Monitoring & Observability**: OpsGenie, CloudWatch, Zabbix, NewRelic, Prometheus, Grafana
-- **Security**: GitLeaks, Prisma Cloud, Trivy
-- **Programming Languages**: Bash, Python
+- **Monitoring & Observability**: OpsGenie, CloudWatch, Zabbix, NewRelic
 - **Project Management**: Agile, Scrum, Kanban
+- **Programming Languages**: Bash, Python
 
 ## CERTIFICATIONS
 

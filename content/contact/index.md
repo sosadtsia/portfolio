@@ -1,9 +1,3 @@
----
-title: "Contact Me"
-date: 2024-05-14
-draft: false
----
-
 # Get in Touch
 
 I'm always open to discussing new projects, opportunities, or just chatting about technology.

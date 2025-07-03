@@ -102,13 +102,13 @@ if command -v weasyprint &> /dev/null; then
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.3;
-  max-width: 800px;
+  font-family: 'Calibri', Arial, sans-serif;
+  font-size: 11pt !important;
+  max-width: 900px !important;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   color: #333;
-  font-size: 12pt;
+  line-height: 1.3;
 }
 
 h1 {
@@ -126,7 +126,7 @@ p:first-of-type {
 
 h2 {
   font-family: 'Calibri', Arial, sans-serif;
-  font-size: 14pt;
+  font-size: 13pt;
   margin-top: 15px;
   margin-bottom: 8px;
   border-bottom: 1px solid #3498db;
@@ -136,7 +136,8 @@ h2 {
 
 h3 {
   font-family: 'Calibri', Arial, sans-serif;
-  font-size: 12pt;
+  font-size: 11pt;
+  max-width: 900px !important;
   margin-bottom: 4px;
   margin-top: 12px;
   color: #2c3e50;
@@ -167,7 +168,7 @@ a {
 
 @page {
   size: letter;
-  margin: 2cm;
+  margin: 1cm;
 }
 EOL
 

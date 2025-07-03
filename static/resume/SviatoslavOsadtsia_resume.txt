@@ -1,6 +1,5 @@
 Sviatoslav Osadtsia (Slav)
-Waterloo, ON | +1 506 451 5280 | sviatoslav.osadtsia@gmail.com |
-LinkedIn
+Waterloo, ON | sviatoslav.osadtsia@gmail.com | LinkedIn
 PROFESSIONAL SUMMARY
 
 Experienced DevOps Developer, applying SRE principles to deliver
@@ -49,8 +48,6 @@ Lead Backup Engineer AnalystSkillsoft | Waterloo, ON | May 2014 - September 2019
   costs by 30% and improving scalability
 - Improved disaster recovery process, reducing recovery time from 30
   hours to 3 hours
-- Saved $60,000 annually through software/hardware maintenance
-  optimization and vendor negotiations
 
 System Administrator - McCain Foods | Florenceville, NB | February 2009 - April 2014
 
@@ -70,11 +67,9 @@ SKILLS
 - Cloud Computing: AWS
 - Containerization: Docker, Kubernetes, Helm, Kustomize
 - CI/CD: GitHub Actions, ArgoCD, AWS CodeStar
-- Monitoring & Observability: OpsGenie, CloudWatch, Zabbix, NewRelic,
-  Prometheus, Grafana
-- Security: GitLeaks, Prisma Cloud, Trivy
-- Programming Languages: Bash, Python
+- Monitoring & Observability: OpsGenie, CloudWatch, Zabbix, NewRelic
 - Project Management: Agile, Scrum, Kanban
+- Programming Languages: Bash, Python
 
 CERTIFICATIONS
 
