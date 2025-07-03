@@ -113,33 +113,3 @@ url = "resume/"
 name = "Contact me"
 weight = 5
 url = "contact/"
-
-[languages.pt-ua]
-languageName = ":ukraine:"
-title = "Святослав"
-
-[languages.pt-ua.params]
-author = "Святослав Осадця"
-info = ["DevOps", "Automation"]
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
-
-[[languages.pt-ua.menu.main]]
-name = "про мене"
-weight = 1
-url = "about/"
-
-[[languages.pt-ua.menu.main]]
-name = "Блог"
-weight = 2
-url = "posts/"
-
-[[languages.pt-ua.menu.main]]
-name = "Проекти"
-weight = 3
-url = "projects/"
-
-[[languages.pt-ua.menu.main]]
-name = "Контакти"
-weight = 5
-url = "contact/"
