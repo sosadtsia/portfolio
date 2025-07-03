@@ -22,6 +22,7 @@ concurrency:
 defaults:
   run:
     shell: bash
+    working-directory: ./
 
 jobs:
   build:
@@ -45,6 +46,19 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      - name: Install pandoc and WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          sudo apt-get install -y python3-pip
+          pip3 install weasyprint
+
+      - name: Generate Resume PDF
+        run: |
+          chmod +x ./scripts/generate-resume-pdf.sh
+          ./scripts/generate-resume-pdf.sh
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
