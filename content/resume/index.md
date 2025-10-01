@@ -2,7 +2,7 @@
 
 <div class="resume-container">
 
-<h1 style="text-align: center;">Sviatoslav Osadtsia (Slav)</h1>
+<h1 style="text-align: center;">Sviatoslav Osadtsia (Slavh)</h1>
 <p style="text-align: center;">Waterloo, ON | sviatoslav.osadtsia@gmail.com | <a href="https://www.linkedin.com/in/sviatoslavosadtsia/">LinkedIn</a></p>
 
 ## PROFESSIONAL SUMMARY
@@ -25,7 +25,7 @@ Experienced DevOps Developer, applying SRE principles to deliver reliable, scala
 - Enhanced pipeline security by integrating GitLeaks, Prisma Cloud, and Trivy for early vulnerability detection
 - Developed dashboards using AWS Cost Explorer APIs to track usage trends and budget limits
 - Created reusable Terraform modules for AWS, reducing environment provisioning time from 3 days to 30 minutes
-- Automated custom sandbox environment creation with Terraform and Kind, reducing setup time from 60 minutes to 5 minutes
+- Automated custom sandbox environment creation with Terraform and Kind for development and testing
 
 ### Lead Backup Engineer Analyst - **Skillsoft** | Waterloo, ON | May 2014 - September 2019
 
