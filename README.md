@@ -25,7 +25,7 @@ The resume page is `content/resume/index.md`. GitHub Actions builds the PDF duri
 
 ```fish
 mkdir -p static/resume
-pandoc content/resume/index.md --pdf-engine=weasyprint --css=assets/resume.css -o static/resume/resume.pdf
+pandoc content/resume/index.md --pdf-engine=weasyprint --css=assets/resume.css --metadata=document-css:false -o static/resume/resume.pdf
 pandoc content/resume/index.md -t plain -o static/resume/resume.txt
 ```
 
