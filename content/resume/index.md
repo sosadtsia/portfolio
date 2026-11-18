@@ -8,83 +8,81 @@ Waterloo, ON | [sviatoslav.osadtsia@gmail.com](mailto:sviatoslav.osadtsia@gmail.
 
 ## Professional Summary
 
-DevOps Engineer with over 15 years of experience designing, implementing, and managing cloud infrastructure and automation solutions. Specialized in AWS cloud services, infrastructure as code, and CI/CD pipelines. Proven track record of reducing deployment times, improving system reliability, and implementing security best practices across enterprise environments.
+DevOps developer with 15 years of infrastructure work. Automates delivery, monitoring, and recovery on Amazon Web Services. Holds AWS Certified Solutions Architect – Professional, AWS Certified DevOps Engineer – Professional, and HashiCorp Certified: Terraform Associate.
 
 ## Work Experience
 
-### Infrastructure Engineer
+### DevOps Developer
 
-**Skillsoft** | 2019 - Present
+**Skillsoft** | 09/2019 - Present
 
-- Design and implement CI/CD pipelines using GitHub Actions, reducing deployment time by 70%
-- Manage AWS infrastructure using Terraform, supporting 50+ microservices across multiple environments
-- Implement monitoring and alerting solutions using Prometheus and Grafana, improving incident response time by 60%
-- Lead containerization efforts using Docker and Kubernetes, enabling consistent deployments across environments
-- Collaborate with development teams to establish DevOps best practices and improve software delivery processes
+- Automated dependency-update pull requests across GitHub repositories with Terraform, GitHub Actions, and Renovate, and opened a Jira issue for each change assigned to the code owner.
+- Detected detached Amazon EBS volumes with AWS Lambda and Python, and emailed the owners through Amazon SES.
+- Added GitHub Actions checks that raise OpsGenie alerts, with on-call routes based on where each person is located.
+- Cut security findings by 35% by running Center for Internet Security checks with Ansible and kube-bench.
+- Provisioned AWS infrastructure with Terraform and kept each change on the security baseline.
+- Copied container images from Docker Hub into a private registry with AWS CodeBuild and Dregsy. Removed 90% of public-registry rate-limit failures and cut deployment time by 35%.
+- Moved backups to AWS Backup with Terraform and cut recovery time by 50% compared with the previous self-hosted system.
+- Reallocated cloud resources and cut cost by $20,000 a year.
+- Automated releases with GitHub Actions and GitHub Packages. Removed 85% of manual release steps and raised release throughput by 50%.
+- Added GitLeaks, Prisma Cloud, and Trivy to delivery pipelines so secret leaks, vulnerable packages, and misconfigurations fail the build.
+- Built cost dashboards from AWS Cost Explorer data and compared usage with budget limits.
+- Wrote Terraform modules for AWS and cut a new environment from 3 days to 30 minutes.
 
-### Lead Backup and Recovery
+### Lead Backup Engineer Analyst
 
-**Skillsoft** | 2014 - 2019
+**Skillsoft** | 05/2014 - 09/2019
 
-- Led the design and implementation of enterprise-wide backup and disaster recovery strategies, ensuring 99.99% data recoverability across critical systems
-- Managed and optimized backup infrastructure, reducing storage costs by 30% while improving recovery time objectives (RTO) and recovery point objectives (RPO)
-- Automated backup processes using scripting and configuration management tools, increasing operational efficiency and reducing manual intervention by 80%
-- Collaborated with cross-functional teams to develop and test disaster recovery plans, successfully executing annual DR drills with zero data loss
-- Provided technical leadership and mentorship to a team of backup administrators, fostering a culture of continuous improvement and knowledge sharing
+- Set a disaster-recovery target of 15 minutes of data loss and 30 minutes to restore service.
+- Moved on-premises systems to AWS, cut hosting cost by 30%, and added capacity without new hardware.
+- Cut disaster-recovery time from 30 hours to 3 hours.
+- Cut software and hardware maintenance cost by $60,000 a year through vendor terms and fewer owned systems.
 
 ### System Administrator
 
-**McCain** | 2009 - 2014
+**McCain Foods** | 02/2009 - 04/2014
 
-- Administered Windows and Linux servers supporting business-critical applications
-- Implemented backup and disaster recovery solutions, ensuring 99.9% data recoverability
-- Automated routine maintenance tasks using PowerShell and Bash scripts, saving 15+ hours per week
-- Managed Active Directory, Exchange, and other Microsoft services for 500+ users
-- Provided technical support and troubleshooting for infrastructure-related issues
+- Raised the backup success rate from 60% to 98% with Commvault and IBM storage tools.
+- Moved 2 petabytes from EMC arrays to IBM arrays with no data loss.
 
-### IT Specialist
+### System Administrator
 
-**SCHEDRO** | 2004 - 2009
+**SCHEDRO** | 09/2004 - 01/2009
 
-- Maintained and supported IT infrastructure for a small business environment
-- Implemented and managed network security solutions, including firewalls and antivirus systems
-- Provided end-user support and training for various software applications
-- Managed hardware and software inventory and procurement
+- Operated private cloud infrastructure for more than 1,000 users.
 
-## Technical Skills
+## Skills
 
-- **Cloud Platforms**: AWS (EC2, S3, RDS, Lambda, ECS, EKS, CloudFormation)
-- **Infrastructure as Code**: Terraform, CloudFormation, AWS CDK
-- **Containerization**: Docker, Kubernetes, ECS, EKS
-- **CI/CD**: GitHub Actions, Jenkins, AWS CodePipeline
-- **Monitoring**: Prometheus, Grafana, CloudWatch, ELK Stack
-- **Scripting**: Bash, Python, PowerShell
-- **Operating Systems**: Linux (Ubuntu, CentOS, Amazon Linux), Windows Server
-- **Version Control**: Git, GitHub
-- **Networking**: VPC, Subnets, Security Groups, Load Balancers, Route53
+- Infrastructure as code: Terraform, CloudFormation, Crossplane
+- Configuration management: Ansible
+- Cloud: Amazon Web Services
+- Containers: Docker, Kubernetes, Helm, Kustomize
+- Delivery: GitHub Actions, Argo CD, AWS CodeStar
+- Delivery methods: Scrum, Kanban
+- Monitoring: OpsGenie, Amazon CloudWatch, Zabbix, New Relic
+- Scripting: Bash, Python
 
 ## Certifications
 
-- AWS Certified Solutions Architect - Professional
-- AWS Certified DevOps Engineer - Professional
+- AWS Certified Solutions Architect – Professional
+- AWS Certified DevOps Engineer – Professional
 - HashiCorp Certified: Terraform Associate
 
 ## Education
 
-### Master of Science in Computer Science
+### Master of Science in Electromechanical Engineering
 
 **Lviv Polytechnic National University** | 2003
 
 ## Languages
 
-- English (Fluent)
-- Ukrainian (Native)
-- Russian (Fluent)
+- English, fluent
+- Ukrainian, fluent
+- Russian, fluent
 
 ## Additional Information
 
-- Canadian Citizen
-- Available for remote work or relocation
+- Canadian citizen
 
 ## Downloads
 
