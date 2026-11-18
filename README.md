@@ -1,53 +1,34 @@
 # Portfolio Website
 
-A collection of my projects.
+Personal site for Sviatoslav Osadtsia. Edit `hugo.toml`, `content/`, and `static/images/`.
 
 ## Setup
 
 ### Prerequisites
-- [Hugo](https://gohugo.io/installation/) (version 0.141.0 or later)
+
+- [Hugo](https://gohugo.io/installation/)
 - Git
-- [Pandoc](https://pandoc.org/installing.html) (for resume generation)
-- [WeasyPrint](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html) (for PDF generation)
+- [Pandoc](https://pandoc.org/installing.html) and [WeasyPrint](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html) when generating the resume PDF locally
 
-### Local Development
-1. Clone this repository
-   ```
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
-   ```
-
-2. Initialize submodules (for themes)
-   ```
-   git submodule update --init --recursive
-   ```
-
-3. Run the Hugo server
-   ```
-   hugo server -D
-   ```
-
-## Resume Generation
-
-This portfolio includes my resume that can be viewed online and downloaded as a PDF.
-
-### Features
-- Responsive design that looks good on all devices
-- PDF version generated automatically
-- Plain text version
-- Consistent styling across all formats
-
-### Generating Resume Files
-To generate the resume PDF and plain text versions:
+### Local development
 
 ```bash
-# Make the script executable
-chmod +x ./scripts/generate-resume-pdf.sh
+git clone https://github.com/sosadtsia/portfolio.git
+cd portfolio
+git submodule update --init --recursive
+hugo server -D
+```
 
-# Run the script
-./scripts/generate-resume-pdf.sh
+## Resume PDF
+
+The resume page is `content/resume/index.md`. GitHub Actions builds the PDF during deploy. The same two commands work locally in fish or bash:
+
+```fish
+mkdir -p static/resume
+pandoc content/resume/index.md --pdf-engine=weasyprint --css=assets/resume.css -o static/resume/resume.pdf
+pandoc content/resume/index.md -t plain -o static/resume/resume.txt
 ```
 
 ## Deployment
 
-This site is automatically deployed to GitHub Pages when changes are pushed to the main branch. The GitHub Actions workflow automatically generates the resume PDF and plain text versions during deployment.
+Pushes to `main` deploy the site to GitHub Pages. The workflow generates the resume PDF, then runs Hugo.

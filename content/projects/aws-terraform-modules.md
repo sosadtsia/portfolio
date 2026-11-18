@@ -25,8 +25,3 @@ A collection of reusable Terraform modules for AWS infrastructure. These modules
 ## Impact
 
 These modules reduced environment provisioning time from 3 days to 30 minutes and ensured infrastructure consistency across all environments.
-
-## GitHub Repository
-
-TO DO: Add link to GitHub repository.
-[View on GitHub](https://github.com/sosadtsia/aws-terraform-modules)

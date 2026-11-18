@@ -1,4 +1,6 @@
-# About Me
+---
+title: "About"
+---
 
 I'm Slav, I have a passion for automation. With over 15 years of experience in the IT industry, I specialize in infrastructure as code, containerization, and CI/CD pipelines.
 
@@ -10,4 +12,4 @@ My career began as a System Administrator, where I gained valuable experience ma
 
 When I'm not automating `things`, I enjoy backcountry canoeing, hiking, spending time with my family, reading books, and exploring new technologies.
 
-Feel free to [contact me](/portfolio/contact/) if you'd like to connect or discuss potential collaborations.
+Feel free to [contact me]({{< relref "contact" >}}) if you'd like to connect or discuss potential collaborations.
