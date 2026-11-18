@@ -1,14 +1,12 @@
-# Get in Touch
+---
+title: "Contact"
+---
 
 I'm always open to discussing new projects, opportunities, or just chatting about technology.
 
-## Contact Information
+Email me at [sviatoslav.osadtsia@gmail.com](mailto:sviatoslav.osadtsia@gmail.com).
 
-- **Email**: [sviatoslav.osadtsia@gmail.com](mailto:sviatoslav.osadtsia@gmail.com)
-- **LinkedIn**: [Sviatoslav Osadtsia](https://www.linkedin.com/in/sviatoslavosadtsia/)
-- **GitHub**: [sosadtsia](https://github.com/sosadtsia/)
-- **Medium**: [@sosadtsia](https://medium.com/@sosadtsia)
-- **Discord**: [sosadtsia_30873](https://discord.com/users/sosadtsia_30873)
+GitHub, LinkedIn, Medium, and Discord are linked from the header.
 
 ## Let's Connect
 

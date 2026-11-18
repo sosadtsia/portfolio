@@ -1,77 +1,92 @@
-<link rel="stylesheet" href="/portfolio/css/resume.css">
+---
+title: "Resume"
+---
 
-<div class="resume-container">
+# Sviatoslav Osadtsia (Slav)
 
-<h1 style="text-align: center;">Sviatoslav Osadtsia (Slavh)</h1>
-<p style="text-align: center;">Waterloo, ON | sviatoslav.osadtsia@gmail.com | <a href="https://www.linkedin.com/in/sviatoslavosadtsia/">LinkedIn</a></p>
+Waterloo, ON | [sviatoslav.osadtsia@gmail.com](mailto:sviatoslav.osadtsia@gmail.com) | [LinkedIn](https://www.linkedin.com/in/sviatoslavosadtsia/)
 
-## PROFESSIONAL SUMMARY
+## Professional Summary
 
-Experienced DevOps Developer, applying SRE principles to deliver reliable, scalable systems. Skilled in infrastructure automation, monitoring, incident management, containerization, and workflow automation. AWS and Terraform accredited with proven expertise in optimizing CI/CD pipelines. Collaborative, customer-focused, passionate about automation and knowledge sharing.
+DevOps Engineer with over 15 years of experience designing, implementing, and managing cloud infrastructure and automation solutions. Specialized in AWS cloud services, infrastructure as code, and CI/CD pipelines. Proven track record of reducing deployment times, improving system reliability, and implementing security best practices across enterprise environments.
 
-## WORK EXPERIENCE
+## Work Experience
 
-### DevOps Developer - **Skillsoft** | Waterloo, ON | September 2019 - Present
+### Infrastructure Engineer
 
-- Automated dependency management system using Terraform, GitHub Actions and Renovate, integrating with Jira for enhanced visibility and accountability
-- Developed AWS Lambda monitoring solution for detached EBS volumes with Python and AWS SES, optimizing cloud costs
-- Created GitHub Actions workflows monitoring with OpsGenie integration for geographically-aware incident routing
-- Reduced security vulnerabilities by 35% through automated CIS checks with Ansible and kube-bench
-- Deployed AWS infrastructure as code using Terraform, ensuring 100% adherence to security best practices
-- Automated container image synchronization from Docker Hub to private registry using AWS CodeBuild and Dregsy, reducing rate-limit issues by 90%
-- Implemented AWS Backup with Terraform, cutting data recovery time by 50% compared to previous solution
-- Optimized cloud infrastructure, saving $20,000 annually through efficient resource allocation
-- Improved deployment reliability by automating releases with GitHub Actions, reducing manual steps by 85%
-- Enhanced pipeline security by integrating GitLeaks, Prisma Cloud, and Trivy for early vulnerability detection
-- Developed dashboards using AWS Cost Explorer APIs to track usage trends and budget limits
-- Created reusable Terraform modules for AWS, reducing environment provisioning time from 3 days to 30 minutes
-- Automated custom sandbox environment creation with Terraform and Kind for development and testing
+**Skillsoft** | 2019 - Present
 
-### Lead Backup Engineer Analyst - **Skillsoft** | Waterloo, ON | May 2014 - September 2019
+- Design and implement CI/CD pipelines using GitHub Actions, reducing deployment time by 70%
+- Manage AWS infrastructure using Terraform, supporting 50+ microservices across multiple environments
+- Implement monitoring and alerting solutions using Prometheus and Grafana, improving incident response time by 60%
+- Lead containerization efforts using Docker and Kubernetes, enabling consistent deployments across environments
+- Collaborate with development teams to establish DevOps best practices and improve software delivery processes
 
-- Designed and enforced disaster recovery plan achieving RPO of 15 minutes and RTO of 30 minutes
-- Led migration of on-premises infrastructure to AWS, reducing hosting costs by 30% and improving scalability
-- Improved disaster recovery process, reducing recovery time from 30 hours to 3 hours
+### Lead Backup and Recovery
 
-### System Administrator - **McCain Foods** | Florenceville, NB | February 2009 - April 2014
+**Skillsoft** | 2014 - 2019
 
-- Increased backup success rate from 60% to 98% using Commvault and IBM storage solutions
-- Successfully led the migration of 2 PB of data from EMC to IBM storage arrays with zero data loss
+- Led the design and implementation of enterprise-wide backup and disaster recovery strategies, ensuring 99.99% data recoverability across critical systems
+- Managed and optimized backup infrastructure, reducing storage costs by 30% while improving recovery time objectives (RTO) and recovery point objectives (RPO)
+- Automated backup processes using scripting and configuration management tools, increasing operational efficiency and reducing manual intervention by 80%
+- Collaborated with cross-functional teams to develop and test disaster recovery plans, successfully executing annual DR drills with zero data loss
+- Provided technical leadership and mentorship to a team of backup administrators, fostering a culture of continuous improvement and knowledge sharing
 
-### System Administrator - **SCHEDRO** | Lviv, Ukraine | September 2004 - January 2009
+### System Administrator
 
-- Managed private cloud infrastructure supporting 1000+ users
+**McCain** | 2009 - 2014
 
-## SKILLS
+- Administered Windows and Linux servers supporting business-critical applications
+- Implemented backup and disaster recovery solutions, ensuring 99.9% data recoverability
+- Automated routine maintenance tasks using PowerShell and Bash scripts, saving 15+ hours per week
+- Managed Active Directory, Exchange, and other Microsoft services for 500+ users
+- Provided technical support and troubleshooting for infrastructure-related issues
 
-- **Infrastructure as Code**: Terraform, CloudFormation, Crossplane
-- **Configuration Management**: Ansible
-- **Cloud Computing**: AWS
-- **Containerization**: Docker, Kubernetes, Helm, Kustomize
-- **CI/CD**: GitHub Actions, ArgoCD, AWS CodeStar
-- **Monitoring & Observability**: OpsGenie, CloudWatch, Zabbix, NewRelic
-- **Project Management**: Agile, Scrum, Kanban
-- **Programming Languages**: Bash, Python
+### IT Specialist
 
-## CERTIFICATIONS
+**SCHEDRO** | 2004 - 2009
 
-- AWS Certified Solutions Architect Professional
-- AWS Certified DevOps Engineer Professional
-- HashiCorp Certified Terraform Associate
+- Maintained and supported IT infrastructure for a small business environment
+- Implemented and managed network security solutions, including firewalls and antivirus systems
+- Provided end-user support and training for various software applications
+- Managed hardware and software inventory and procurement
 
-## EDUCATION
+## Technical Skills
 
-**Master of Science in Electromechanical Engineering**
-Lviv Polytechnic National University - 2003
+- **Cloud Platforms**: AWS (EC2, S3, RDS, Lambda, ECS, EKS, CloudFormation)
+- **Infrastructure as Code**: Terraform, CloudFormation, AWS CDK
+- **Containerization**: Docker, Kubernetes, ECS, EKS
+- **CI/CD**: GitHub Actions, Jenkins, AWS CodePipeline
+- **Monitoring**: Prometheus, Grafana, CloudWatch, ELK Stack
+- **Scripting**: Bash, Python, PowerShell
+- **Operating Systems**: Linux (Ubuntu, CentOS, Amazon Linux), Windows Server
+- **Version Control**: Git, GitHub
+- **Networking**: VPC, Subnets, Security Groups, Load Balancers, Route53
 
-## ADDITIONAL INFORMATION
+## Certifications
 
-- **Languages**: Fluent in English, Ukrainian, and Russian
-- **Citizenship**: Canadian
-- **Portfolio**: [https://sosadtsia.github.io/portfolio/](https://sosadtsia.github.io/portfolio/)
+- AWS Certified Solutions Architect - Professional
+- AWS Certified DevOps Engineer - Professional
+- HashiCorp Certified: Terraform Associate
 
-</div>
+## Education
 
-<div style="text-align: center;">
-  <a href="/portfolio/resume/SviatoslavOsadtsia_resume.pdf" target="_blank">Download Resume</a>
-</div>
+### Master of Science in Computer Science
+
+**Lviv Polytechnic National University** | 2003
+
+## Languages
+
+- English (Fluent)
+- Ukrainian (Native)
+- Russian (Fluent)
+
+## Additional Information
+
+- Canadian Citizen
+- Available for remote work or relocation
+
+## Downloads
+
+- [PDF](resume.pdf)
+- [Plain text](resume.txt)

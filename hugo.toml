@@ -19,14 +19,14 @@ noClasses = false
 
 [markup.goldmark]
 [markup.goldmark.renderer]
-unsafe = true
+unsafe = false
 
 [params]
 author = "Sviatoslav Osadtsia"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Особистий сайт Святослава"
+description = "Personal site of Sviatoslav Osadtsia"
 keywords = "blog,developer,personal"
-info = ["DevOps", "Automation"]
+info = ["DevOps and automation.", "Infrastructure as code, containers, and CI/CD."]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -58,9 +58,7 @@ customRemoteJS = []
 
 [taxonomies]
 category = "categories"
-series = "series"
 tag = "tags"
-author = "authors"
 
 [[params.social]]
 name = "Github"
@@ -84,10 +82,10 @@ url = "https://medium.com/@sosadtsia"
 name = "Discord"
 icon = "fa-brands fa-discord fa-2x"
 weight = 6
-url = "https://discord.com/users/sosadtsia_30873"
+url = "https://discord.com/users/1068230916037693440"
 
 [languages.en]
-languageName = ":uk:"
+languageName = "English"
 
 [[languages.en.menu.main]]
 name = "About"
