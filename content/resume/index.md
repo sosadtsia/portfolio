@@ -70,9 +70,8 @@ DevOps developer with 15 years of infrastructure work. Automates delivery, monit
 
 ## Education
 
-### Master of Science in Electromechanical Engineering
-
-**Lviv Polytechnic National University** | 2003
+Master of Science in Electromechanical Engineering
+Lviv Polytechnic National University | 2003
 
 ## Languages
 
