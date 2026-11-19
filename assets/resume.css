@@ -51,9 +51,9 @@
   font-weight: 400;
 }
 
-.resume p:first-of-type {
+.resume > p:first-of-type {
   text-align: center;
-  margin-bottom: 1.8em;
+  margin-bottom: 0.5em;
 }
 
 @media (max-width: 768px) {
@@ -94,9 +94,9 @@
     font-weight: 400;
   }
 
-  p:first-of-type {
+  body > p:first-of-type {
     text-align: center;
-    margin-bottom: 1.15em;
+    margin-bottom: 0.25em;
   }
 
   h2 {
