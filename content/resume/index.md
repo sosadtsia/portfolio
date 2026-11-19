@@ -8,7 +8,11 @@ Waterloo, ON | [sviatoslav.osadtsia@gmail.com](mailto:sviatoslav.osadtsia@gmail.
 
 ## Professional Summary
 
-DevOps developer with 15 years of infrastructure work. Automates delivery, monitoring, and recovery on Amazon Web Services. Holds AWS Certified Solutions Architect – Professional, AWS Certified DevOps Engineer – Professional, and HashiCorp Certified: Terraform Associate.
+DevOps developer applying SRE principles to deliver
+reliable, scalable systems. Skilled in infrastructure automation,
+proactive monitoring, incident management, containerization, and
+workflow automation. Collaborative, customer-focused, passionate
+about automation and knowledge sharing.
 
 ## Work Experience
 
@@ -16,34 +20,79 @@ DevOps developer with 15 years of infrastructure work. Automates delivery, monit
 
 **Skillsoft** | 09/2019 - Present
 
-- Automated dependency-update pull requests across GitHub repositories with Terraform, GitHub Actions, and Renovate, and opened a Jira issue for each change assigned to the code owner.
-- Detected detached Amazon EBS volumes with AWS Lambda and Python, and emailed the owners through Amazon SES.
-- Added GitHub Actions checks that raise OpsGenie alerts, with on-call routes based on where each person is located.
-- Cut security findings by 35% by running Center for Internet Security checks with Ansible and kube-bench.
-- Provisioned AWS infrastructure with Terraform and kept each change on the security baseline.
-- Copied container images from Docker Hub into a private registry with AWS CodeBuild and Dregsy. Removed 90% of public-registry rate-limit failures and cut deployment time by 35%.
-- Moved backups to AWS Backup with Terraform and cut recovery time by 50% compared with the previous self-hosted system.
-- Reallocated cloud resources and cut cost by $20,000 a year.
-- Automated releases with GitHub Actions and GitHub Packages. Removed 85% of manual release steps and raised release throughput by 50%.
-- Added GitLeaks, Prisma Cloud, and Trivy to delivery pipelines so secret leaks, vulnerable packages, and misconfigurations fail the build.
-- Built cost dashboards from AWS Cost Explorer data and compared usage with budget limits.
-- Wrote Terraform modules for AWS and cut a new environment from 3 days to 30 minutes.
+- Automated AWS EC2 AMI lifecycle cleanup using Python and the AWS SDK on a weekly GitHub Actions schedule, enforcing a 12-month retention policy across multiple accounts and regions to save $3,000/month ($36K/year) in EC2 service costs.
+
+- Architected a decoupled Terraform service deployment workflow using GitHub Actions and AWS CodeBuild runners to standardize standalone infrastructure (e.g.,AWS DevOps agent) with minimal cross-service dependencies.
+
+- Automated pull request creation for dependency updates across GitHub
+  repositories using Terraform, GitHub Actions and Renovate. Integrated
+  Jira to auto-create issues assigned to code owners, improving
+  visibility and accountability in the development workflow.
+
+- Automated monitoring of detached EBS volumes using AWS Lambda, Python,
+  sending email alerts via AWS SES to proactively notify stakeholders
+  and support cloud cost optimization.
+
+- Created GitHub Actions for workflow monitoring with OpsGenie alerting,
+  including tailored on-call schedules to route incidents based on team
+  members geographic locations, ensuring effective off-hours coverage.
+
+- Reduced security vulnerabilities by 35% by automating CIS checks with
+  Ansible and kube-bench.
+
+- Deployed infrastructure as code with Terraform AWS, ensuring 100%
+  adherence to security best practices.
+
+- Executed automated container image synchronization from Docker Hub to
+  a private registry using AWS CodeBuild and Dregsy, reducing reliance
+  on public pulls and mitigating rate-limit issues by 90%. Reduced
+  deployment times by 35% through process improvement and automation.
+
+- Automated backup processes using AWS Backup and Terraform, cutting
+  data recovery time by 50% compared to the previous self-hosted
+  solution.
+
+- Optimized cloud infrastructure, saving the organization \$20,000
+  annually through efficient resource allocation.
+
+- Improved deployment reliability and speed by automating releases with
+  GitHub Actions and Packages, reducing manual steps by 85% and boosting
+  release throughput by 50%.
+
+- Enhanced pipeline security by integrating GitLeaks, Prisma Cloud, and
+  Trivy, enabling early detection of secrets, vulnerabilities, and
+  misconfigurations.
+
+- Built cost dashboards using AWS Cost Explorer APIs to track usage
+  trends and budget limits.
+
+- Developed Terraform modules for AWS, reducing environment provisioning
+  time from 3 days to 30 minutes and ensuring infrastructure
+  consistency.
 
 ### Lead Backup Engineer Analyst
 
 **Skillsoft** | 05/2014 - 09/2019
 
-- Set a disaster-recovery target of 15 minutes of data loss and 30 minutes to restore service.
-- Moved on-premises systems to AWS, cut hosting cost by 30%, and added capacity without new hardware.
-- Cut disaster-recovery time from 30 hours to 3 hours.
-- Cut software and hardware maintenance cost by $60,000 a year through vendor terms and fewer owned systems.
+- Designed and executed a disaster recovery plan, achieving RPO of 15
+  minutes and RTO of 30 minutes.
+
+- Migrated on-premises infrastructure to AWS, reducing hosting costs by
+  30% and improving system scalability.
+
+- Reduced disaster recovery time from 30 hours to 3 hours, enabling
+  faster recovery and minimal service disruption during critical events.
+
+- Saved \$60,000 annually by optimizing software and hardware
+  maintenance through vendor negotiations and streamlined management
+  practices.
 
 ### System Administrator
 
 **McCain Foods** | 02/2009 - 04/2014
 
-- Raised the backup success rate from 60% to 98% with Commvault and IBM storage tools.
-- Moved 2 petabytes from EMC arrays to IBM arrays with no data loss.
+- Raised the backup success rate from 60% to 98% with Commvault and IBM storage arrays.
+- Moved 2 petabytes from EMC arrays to IBM arrays without data loss.
 
 ### System Administrator
 
